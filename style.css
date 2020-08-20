@@ -1,0 +1,164 @@
+  *{
+    margin-top: 0;
+  
+  }
+    .score{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  
+  body{
+    font-family: fantasy;
+    font-size:26px;
+    color:rgb(1, 70, 1);
+    font-weight: bolder;
+    background-color: #ceb212;
+    }
+    
+  #start-page{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: fantasy;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+
+  h1{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top:20px;
+  }
+
+  #start-page p{
+    font-family: 'Gaegu', cursive;
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+  }
+
+  .question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #question-images img{
+  margin-left:0px;
+  padding-left:0px;
+  width: 100%;
+  max-width: 540px;
+} 
+
+#question-images figure{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-end;
+ align-content: flex-end;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+  #question-images{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+ol{
+  padding-top:0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+  #feedback-images img{
+  margin-bottom: 0.5em;
+  width: 100%;
+  max-width: 440px;
+  }
+
+  #start-page img{
+    width:100%;
+    height: 350px;
+    border: groove;
+  }
+
+  fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    min-inline-size: min-content;
+    border-width: 8px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+  #end-page{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+
+button{
+  margin-left: auto;
+  margin-right: auto;
+  height: 4em;
+  width: 10em;
+  cursor: pointer;
+  font-family: fantasy;
+  text-transform: uppercase;
+  border: 0.1em #07773e solid;
+  background-color: #07773e;
+  color: #ffffff;
+}
+
+#start-page button{
+font-size:18px;
+ display: flex;
+ justify-content: center;
+ padding-top: 15px;
+ width: 15em;
+
+
+}
+
+.score{
+  display: flex;
+  justify-content: center;
+ margin: 10, 10, 10, 10;
+}
+
+.correct-feedback{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.incorrect-feedback{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#feedback-buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+}
