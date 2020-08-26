@@ -393,6 +393,6 @@ function startQuiz() {
     setUpEventHandlers()
     renderStartPage()
 }
-$(startQuiz);
+$(startQuiz());
 
 
